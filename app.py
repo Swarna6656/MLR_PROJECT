@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 import sklearn
 from sklearn.linear_model import LinearRegression
-with open('MLR_MODEL.pkl',"rb") as f:
+with open('MLR_Model.pkl',"rb") as f:
     m = pickle.load(f)
 
 app = Flask(__name__)
